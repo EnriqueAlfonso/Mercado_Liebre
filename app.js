@@ -19,3 +19,9 @@ app.get("/register", (req, res) => {
 
     res.sendFile(path_register);
 });
+
+app.get('/login', (req, res) => {
+    let path_login = path.resolve(__dirname, './views/login.html');
+
+    res.sendFile(path_login);
+});
