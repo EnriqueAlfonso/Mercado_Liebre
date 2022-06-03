@@ -123,6 +123,7 @@
                             minlength="6"
                             maxlength="30"
                             class="input"
+                            required
                         />
                         <span class="alerta">Incorrecto</span>
                     </div>
@@ -137,6 +138,7 @@
                             minlength="6"
                             maxlength="30"
                             class="input"
+                            required
                         />
                         <span class="alerta">Incorrecto</span>
                     </div>
@@ -151,17 +153,102 @@
                             minlength="10"
                             maxlength="40"
                             class="input"
+                            required
                         />
                         <span class="alerta">Incorrecto</span>
                     </div>
 
                     <div class="box_registro">
                         <label for="fecha" class="label">Nacimiento</label>
+                        <input type="date" name="fecha" id="fecha" class="input" required />
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="domicilio" class="label">Domicilio</label>
                         <input
-                            type="date"
-                            name="fecha"
-                            id="fecha"
+                            type="text"
+                            name="domicilio"
+                            id="domicilio"
+                            placeholder="Letras, Numeros & Espacios"
+                            minlength="6"
+                            maxlength="30"
                             class="input"
+                        />
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="perfil" class="label">Perfil del Usuario</label>
+                        <input
+                            type="radio"
+                            name="perfil"
+                            id="perfil"
+                            value="perfil"
+                            class="radio"
+                        />
+                        <span class="span_radio">Comprador</span>
+                        <input
+                            type="radio"
+                            name="perfil"
+                            id="perfil"
+                            value="perfil"
+                            class="radio"
+                        />
+                        <span class="span_radio">Vendedor</span>
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="intereses" class="label">Intereses</label>
+                        <select name="intereses" id="intereses">
+                            <option value="electro">Electro</option>
+                            <option value="moda">Moda</option>
+                            <option value="hogar">Hogar</option>
+                            <option value="jugueteria">Jugueteria</option>
+                            <option value="vida_sana">Vida Sana</option>
+                        </select>
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="foto" class="label">Foto de Usuario</label>
+                        <input
+                            type="file"
+                            name="foto"
+                            id="foto"
+                            accept="image/jpg, image/jpeg, image/png"
+                            class="input"
+                        />
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="password" class="label">Contraseña</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Letras & Numeros"
+                            minlength="6"
+                            maxlength="20"
+                            class="input"
+                            required
+                        />
+                        <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <label for="password" class="label">Confirmar Contraseña</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Letras & Numeros"
+                            minlength="6"
+                            maxlength="20"
+                            class="input"
+                            required
                         />
                         <span class="alerta">Incorrecto</span>
                     </div>

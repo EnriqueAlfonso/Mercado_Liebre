@@ -572,5 +572,10 @@
     border-radius: 5px;
 }
 
+.radio {
+    display: inline-block;
+    width: 15px;
+}
+
 /*
 */
