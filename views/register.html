@@ -134,7 +134,7 @@
                             type="text"
                             name="usuario"
                             id="usuario"
-                            placeholder="Letras & Numeros"
+                            placeholder="Letras & Numeros, 6 caracteres mínimo"
                             minlength="6"
                             maxlength="30"
                             class="input"
@@ -229,8 +229,8 @@
                             type="password"
                             name="password"
                             id="password"
-                            placeholder="Letras & Numeros"
-                            minlength="6"
+                            placeholder="Letras & Numeros, 8 caracteres mínimo"
+                            minlength="8"
                             maxlength="20"
                             class="input"
                             required
@@ -239,18 +239,26 @@
                     </div>
 
                     <div class="box_registro">
-                        <label for="password" class="label">Confirmar Contraseña</label>
+                        <label for="confirmar" class="label">Confirmar Contraseña</label>
                         <input
                             type="password"
-                            name="password"
-                            id="password"
-                            placeholder="Letras & Numeros"
-                            minlength="6"
+                            name="confirmar"
+                            id="confirmar"
+                            placeholder="Letras & Numeros, 8 caracteres mínimo"
+                            minlength="8"
                             maxlength="20"
                             class="input"
                             required
                         />
                         <span class="alerta">Incorrecto</span>
+                    </div>
+
+                    <div class="box_registro">
+                        <input type="reset" value="Borrar" />
+                    </div>
+
+                    <div class="box_registro">
+                        <input type="submit" value="Enviar" src="/" />
                     </div>
                 </form>
             </section>
