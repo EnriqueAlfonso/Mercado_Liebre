@@ -1,0 +1,14 @@
+{
+    "name": "mercado_liebre",
+    "version": "1.0.0",
+    "description": "Proyecto: Mercado Liebre.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Lema, Enrique Alfonso.",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}

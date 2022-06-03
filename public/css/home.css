@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    color: #666;
+    font-family: "Roboto", sans-serif;
+}
+
+.amarillo {
+    background-color: #eac926;
+}
+
+.azul {
+    background-color: #03264c;
+}
+
+.gris_oscuro {
+    color: #666;
+}
+
+.gris_claro {
+    background-color: #ebebeb;
+}
+
+.verde {
+    color: #39b54a;
+}
+
+.px18 {
+    font-size: 18px;
+}
+
+.px16 {
+    font-size: 16px;
+}
+
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield {
+    color: #03264c;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.fa-truck {
+    color: #39b54a;
+    font-size: 20px;
+}
+
+.fa-search {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: White;
+    border: 1px solid #666;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.fa-bars {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: White;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid Black;
+}
+
+/* Header. ---------------------------------------------------------------------------------------- */
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#header,
+#footer {
+    width: 100%;
+    height: auto;
+}
+
+.box_top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_top,
+.box_imagen_articulo,
+.box_articulo {
+    width: 100%;
+    height: auto;
+}
+
+.box_mensaje,
+.box_mensaje_02,
+.box_h2 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+}
+
+.box_mensaje,
+.box_mensaje_02 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_mensaje_02 {
+    display: none;
+}
+
+.box_desordenada {
+    width: 50%;
+    height: auto;
+    padding: 10px 0px;
+    display: none;
+}
+
+.desordenada {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.box_logo {
+    width: 50%;
+    height: auto;
+}
+
+.imagen {
+    display: block;
+    width: 100%;
+}
+
+.box_busqueda {
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#buscador {
+    display: block;
+    width: 70%;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 10px;
+    border: 1px solid #666;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.border_search {
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.parrafo_01 {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+}
+
+.parrafo_top {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+}
+
+.parrafo_precio {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+}
+
+.parrafo_descuento {
+    font-size: 16px;
+    font-weight: 400;
+    color: #39b54a;
+}
+
+.parrafo_producto {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.item {
+    display: inline-block;
+    width: auto;
+    margin: 0px 4%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.item_2 {
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ancla {
+    display: block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #666;
+}
+
+.ancla_02 {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+/* Main. ------------------------------------------------------------------------------------------ */
+
+#main {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+
+#seccion_ultima_visita,
+#seccion_ofertas {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+#box_banner {
+    width: 100%;
+    height: auto;
+}
+
+#articulo {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    background-color: White;
+}
+
+.box_articulo {
+    position: relative;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_imagen_articulo {
+    border-bottom: 2px solid #ebebeb;
+}
+
+.box_precio {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.box_descuento {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.box_producto {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.box_precio,
+.box_descuento,
+.box_producto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.box_truck {
+    position: absolute;
+    background-color: White;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    top: -20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_h2 {
+    margin: 10px 0px;
+}
+
+.titulo_h2 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+}
+
+/* Footer. ---------------------------------------------------------------------------------------- */
+
+.box_footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 0px;
+}
+
+#footer {
+    background-color: White;
+    padding: 10px 0px;
+}
+
+/* Media Queris.----------------------------------------------------------------------------------- */
+
+@media all and (max-width: 359px) {
+    #body {
+        display: none;
+    }
+}
+
+@media all and (min-width: 770px) and (max-width: 1200px) {
+    .parrafo_01 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .box_logo {
+        width: 30%;
+        height: auto;
+    }
+
+    .box_busqueda {
+        width: 35%;
+        height: 30px;
+    }
+
+    .box_mensaje {
+        display: none;
+    }
+
+    .box_mensaje_02 {
+        width: 35%;
+        display: block;
+    }
+
+    .box_desordenada,
+    .desordenada {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    #seccion_ultima_visita,
+    #seccion_ofertas {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #articulo {
+        width: 40%;
+        height: auto;
+        margin: 10px 0px;
+        background-color: White;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .box_articulo {
+        position: relative;
+        padding: 10px 20px;
+    }
+}
+
+@media all and (min-width: 1201px) {
+    .parrafo_01 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .parrafo_top {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #buscador {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .box_logo {
+        width: 30%;
+        height: auto;
+    }
+
+    .box_busqueda {
+        width: 35%;
+        height: 30px;
+    }
+
+    .box_mensaje {
+        display: none;
+    }
+
+    .box_mensaje_02 {
+        width: 35%;
+        display: block;
+    }
+
+    .box_desordenada,
+    .desordenada {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    #seccion_ultima_visita,
+    #seccion_ofertas {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #articulo {
+        width: 20%;
+        height: auto;
+        margin: 10px 0px;
+        background-color: White;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .box_articulo {
+        position: relative;
+        padding: 10px 20px;
+    }
+
+    .fa-search {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+}
