@@ -285,6 +285,10 @@
     background-color: White;
 }
 
+#articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 .box_articulo {
     position: relative;
     padding: 10px 30px;
@@ -444,7 +448,6 @@
         height: auto;
         margin: 10px 0px;
         background-color: White;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .box_articulo {
@@ -514,7 +517,6 @@
         height: auto;
         margin: 10px 0px;
         background-color: White;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .box_articulo {
