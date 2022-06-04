@@ -577,15 +577,31 @@
     width: 15px;
 }
 
-.boton{
+.boton {
+    display: block;
     width: 100px;
     height: 40px;
     line-height: 40px;
+    margin: 0px auto;
+    color: White;
+    background-color: #1259c3;
+    border: 1px solid #1259c3;
+    border-radius: 5px;
 }
 
-#foto, #intereses{
+.boton:hover {
+    background-color: #666;
+    border: 1px solid #666;
+}
+
+.boton:active {
+    border: 1px solid White;
+}
+
+#foto,
+#intereses {
     display: block;
-    width: 200px;
+    width: 150px;
     height: 30px;
     line-height: 30px;
 }
