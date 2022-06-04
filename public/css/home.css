@@ -566,6 +566,7 @@
 
 .alerta {
     color: Darkred;
+    display: none;
 }
 
 .input {
@@ -582,7 +583,7 @@
     width: 100px;
     height: 40px;
     line-height: 40px;
-    margin: 0px auto;
+    margin: 20px auto;
     color: White;
     background-color: #1259c3;
     border: 1px solid #1259c3;
