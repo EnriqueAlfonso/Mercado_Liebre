@@ -47,6 +47,12 @@
     margin: 10px;
 }
 
+.fa-credit-card:hover,
+.fa-gift:hover,
+.fa-user-shield:hover {
+    color: rgb(170, 35, 35);
+}
+
 .fa-truck {
     color: #39b54a;
     font-size: 20px;
@@ -378,13 +384,13 @@
 /* Footer. ---------------------------------------------------------------------------------------- */
 
 .box_footer {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
     padding: 5px;
     margin: 0px;
 }
@@ -392,6 +398,11 @@
 #footer {
     background-color: White;
     padding: 10px 0px;
+}
+
+.desktop {
+    width: auto;
+    height: auto;
 }
 
 /* Media Queris.----------------------------------------------------------------------------------- */
@@ -533,6 +544,20 @@
         width: 30px;
         height: 30px;
         padding: 6px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .desktop {
+        display: inline-block;
+        width: 30%;
+        height: auto;
     }
 }
 
