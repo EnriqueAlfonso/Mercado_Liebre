@@ -358,6 +358,11 @@
     align-items: center;
 }
 
+.box_truck:hover {
+    transform: rotate(-90deg);
+    transition-duration: 5s;
+}
+
 .box_h2 {
     margin: 10px 0px;
 }
