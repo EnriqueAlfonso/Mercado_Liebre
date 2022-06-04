@@ -200,14 +200,27 @@
                     </div>
 
                     <div class="box_registro">
-                        <label for="intereses" class="label">Intereses</label>
-                        <select name="intereses" id="intereses">
-                            <option value="electro">Electro</option>
-                            <option value="moda">Moda</option>
-                            <option value="hogar">Hogar</option>
-                            <option value="jugueteria">Jugueteria</option>
-                            <option value="vida_sana">Vida Sana</option>
-                        </select>
+                        <label class="label">Intereses</label>
+                        <div class="box_intereses">
+                            <input type="checkbox" name="electro" id="electro" class="check" />
+                            <label for="electro" class="label_check">Electro</label>
+                        </div>
+                        <div class="box_intereses">
+                            <input type="checkbox" name="moda" id="moda" class="check" />
+                            <label for="moda" class="label_check">Moda</label>
+                        </div>
+                        <div class="box_intereses">
+                            <input type="checkbox" name="hogar" id="hogar" class="check" />
+                            <label for="hogar" class="label_check">Hogar</label>
+                        </div>
+                        <div class="box_intereses">
+                            <input type="checkbox" name="jugueteria" id="jugueteria" class="check" />
+                            <label for="jugueteria" class="label_check">Jugueteria</label>
+                        </div>
+                        <div class="box_intereses">
+                            <input type="checkbox" name="vida" id="vida" class="check" />
+                            <label for="vida" class="label_check">Vida Sana</label>
+                        </div>
                         <span class="alerta">Incorrecto</span>
                     </div>
 
@@ -217,7 +230,7 @@
                             type="file"
                             name="foto"
                             id="foto"
-                            accept="image/jpg, image/jpeg, image/png"
+                            accept="image/jpg, image/jpeg, image/png, image/apng, image/avif, image/avif, image/svg+xml, image/webp"
                         />
                         <span class="alerta">Incorrecto</span>
                     </div>
