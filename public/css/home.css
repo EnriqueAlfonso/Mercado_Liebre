@@ -206,7 +206,7 @@
 }
 
 .parrafo_top {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     text-align: center;
     text-decoration: none;
@@ -329,7 +329,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -399,7 +399,7 @@
     }
 
     .box_busqueda {
-        width: 35%;
+        width: 30%;
         height: 30px;
     }
 
@@ -408,7 +408,7 @@
     }
 
     .box_mensaje_02 {
-        width: 35%;
+        width: 40%;
         display: block;
     }
 
@@ -454,7 +454,7 @@
     }
 
     .parrafo_top {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
     }
 
