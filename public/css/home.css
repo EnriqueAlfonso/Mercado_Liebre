@@ -451,7 +451,7 @@
     #seccion_ofertas {
         width: 100%;
         height: auto;
-        padding: 10px 0px;
+        padding: 5px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -460,10 +460,9 @@
     }
 
     #articulo {
-        width: 40%;
+        width: 45%;
         height: auto;
-        margin: 10px 0px;
-        background-color: White;
+        margin: 5px;
     }
 
     .box_articulo {
